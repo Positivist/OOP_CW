@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="84958b66-32e7-4548-9e01-3f42e06401b7" name="Army" linkedPackageId="efec3ac7-7b32-4323-be7d-4a3cd0dacf2a" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3159a36c-9d89-497f-8b99-615abe506e01" name="Unit" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9bf6bfbf-bc90-49e9-88b2-ddecd86a05ce" />
+        <ownedAttributesInternal>
+          <property Id="b6b99988-57b2-475d-aec6-264c7db92a96" name="coord" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="62132876-0032-4e45-8379-e8ecbdf9ca2b" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="14814b6c-a3ac-4249-a740-4bb5826e75e9" LastKnownName="Coordinates" />
+            </type_NamedElement>
+          </property>
+          <property Id="84307796-e36e-4a66-96a1-55b4a7139122" name="size" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="985d872f-3777-4e1b-93c7-885a89e75967" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="c4a432ad-d571-4172-a570-3a0cff02fbf4" LastKnownName="Double" />
+            </type_NamedElement>
+          </property>
+          <property Id="6a3303a6-f0f1-4193-8624-74174ab3efef" name="speed" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2d5fb22a-6fff-4aea-8902-5c386793e888" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="d6ce6fdf-3a2e-4e5c-bff5-c57ba2a663e7" LastKnownName="Double" />
+            </type_NamedElement>
+          </property>
+          <property Id="b55cf928-ce2f-475c-b809-a6b6a868d22a" name="airMovement" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="af2e59f2-1a1f-4683-8578-0207208009b9" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="668ae2d2-dfcf-4c47-bbdc-a3a274de0900" LastKnownName="Boolean" />
+            </type_NamedElement>
+          </property>
+          <property Id="94d9fce1-3925-4277-b038-d3b99b901e46" name="waterMovement" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2aa59823-84a2-46d6-bdc6-06f5376f4d64" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="668ae2d2-dfcf-4c47-bbdc-a3a274de0900" LastKnownName="Boolean" />
+            </type_NamedElement>
+          </property>
+          <property Id="05565bdc-23b0-4f5d-8f52-f71984662830" name="groundMovement" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="017e7d94-9455-428e-b4e6-3e44926b70c7" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="668ae2d2-dfcf-4c47-bbdc-a3a274de0900" LastKnownName="Boolean" />
+            </type_NamedElement>
+          </property>
+          <property Id="fc3f70b2-1371-4425-a35e-a0ff15533804" name="hp" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="724c40a2-aebd-47c9-818e-0515af354f29" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="e2a15c04-d76d-4653-8d86-384ed046bc43" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="fc665a1a-4ed3-42f2-94d8-62d236df1efe" name="getCoord" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="895b22c5-1e86-4235-8609-0db85878f278" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3f9480cd-1f6b-4495-a9ec-58f14d259de3" direction="Return">
+                  <elementDefinition Id="b71a487f-777b-4c4d-8112-3421c4757901" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="14b9c536-e474-4cf3-bb7f-3a831333fa57" LastKnownName="Coordinates" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="07cf2e10-65e3-4d82-94b5-cff682ee8200" name="setCoord" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4be3cf66-e47f-4d93-9a02-17bea261fd85" />
+          </operation>
+          <operation Id="372297a3-f987-4a75-b4ab-242ece81bc0d" name="move" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="be164f37-b91e-443f-b7c2-33ae975aeabd" />
+          </operation>
+          <operation Id="13fb2e03-4220-418a-a5f7-edbd696b52d9" name="getSpeed" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="07cafbb0-47cf-432d-acf5-162cecf51eed" />
+          </operation>
+          <operation Id="33f332c4-d46f-4447-9ee0-2e082e913e2c" name="attack" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d0dd958a-3da3-41a1-956e-c4866e058708" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c764b731-e2eb-4083-9b30-93a167eef2af" direction="Return">
+                  <elementDefinition Id="a8503b5a-1a02-4f39-9b01-d8b9b4c18707" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="ffd73e3f-8c94-4c8c-98de-f3a9d5f72da7" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d8f2ad48-266f-41e6-b5d0-09409b908a12" name="Coordinates" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b4a61fc0-caee-4d08-a95a-3cbcce1faed1" />
+        <ownedAttributesInternal>
+          <property Id="564cd102-e958-4b9b-a6d6-ba7db74dbc15" name="x" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="851817e8-711d-4eeb-b74f-393dee2be7b1" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="cf69a8cc-b019-4ac7-933e-675e91f4600f" LastKnownName="Double" />
+            </type_NamedElement>
+          </property>
+          <property Id="5bda660b-2ef8-41e0-846d-3fcc267ca65a" name="y" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d611aaa7-1bab-4f55-afd4-5da265490b8e" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="1c170d8d-c895-40e6-ad51-f0995c4e508b" LastKnownName="Double" />
+            </type_NamedElement>
+          </property>
+          <property Id="70ac2f06-0381-48c1-ac22-e7a02e4765c8" name="z" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0023b863-47e2-41a3-a8a2-6f57080ee83f" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a3c50da1-c0a7-4ffa-9281-67430c68c7c8" LastKnownName="Double" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="668ae2d2-dfcf-4c47-bbdc-a3a274de0900" name="Boolean" isAbstract="false" isLeaf="false" cachedFullName="Boolean">
+        <elementDefinition Id="8943dc84-709e-4f62-b15a-a3273aa6f165" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="c4a432ad-d571-4172-a570-3a0cff02fbf4" name="Double" isAbstract="false" isLeaf="false" cachedFullName="Double">
+        <elementDefinition Id="28fa1de8-7ced-439d-9feb-6dd32445e9a4" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d6ce6fdf-3a2e-4e5c-bff5-c57ba2a663e7" name="Double" isAbstract="false" isLeaf="false" cachedFullName="Double">
+        <elementDefinition Id="28fa1de8-7ced-439d-9feb-6dd32445e9a4" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="180f3b7c-825f-4fa7-b38c-2d0e23383d3f" name="Machine" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c5b50861-e4da-4c06-84bd-b5ef16145b3f" />
+        <generalsInternal>
+          <generalization Id="f8bdc2dd-71d8-413c-b37c-33b032a763d3" isSubstitutable="false">
+            <classMoniker Id="3159a36c-9d89-497f-8b99-615abe506e01" LastKnownName="Unit" />
+            <elementDefinition Id="5424f027-8355-412d-bcac-da416dc150ea" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="7a57513f-36fa-4825-9b92-e8e4067b92d3" name="Capacity" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="81e54904-ae75-4728-9e37-f995efd2594b" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="fde37a11-aca6-483e-b3f1-72d7ba3db97e" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a2fef96e-02d1-4698-9e8e-44a28524ecf1" name="Troop" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4eee8eeb-4e88-494b-9752-9492ef17facc" />
+        <generalsInternal>
+          <generalization Id="d0cc5e78-a1b3-41ae-8e15-c37c13dacbe8" isSubstitutable="false">
+            <classMoniker Id="3159a36c-9d89-497f-8b99-615abe506e01" LastKnownName="Unit" />
+            <elementDefinition Id="e4c3e910-4abc-466c-baa3-767afbe90a9a" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="827dc77e-1371-4b5a-834e-ad535d808b70" name="Trans" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="eba747bb-8e08-4ef4-966f-43ee12922d34" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="9391e0c5-afd4-47c5-9ec3-d9246abb0119" LastKnownName="Machine" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="f99952fa-5440-47ce-8115-afda05c98d66" name="getOn" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1bb305df-eb2f-4316-bc18-ed3d59c89c7a" />
+          </operation>
+          <operation Id="4ae7b312-d307-4718-bc50-84e802df4806" name="getOff" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ff32a278-18fc-4eac-a18c-dfc8628c8ad4" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="54d2c7af-bf57-4c60-a514-c57f04dd2288" name="Tank" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="532ae16e-73f7-425b-ba7e-2c5977d402ca" />
+        <generalsInternal>
+          <generalization Id="04091311-0dc8-459a-9cf0-8262200f03fd" isSubstitutable="false">
+            <classMoniker Id="180f3b7c-825f-4fa7-b38c-2d0e23383d3f" LastKnownName="Machine" />
+            <elementDefinition Id="0253c590-a553-4d4c-a081-a4a8ddee94d9" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b637b0c8-2e76-4b89-955d-da954173b919" name="Plane" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="615e6057-4dd0-42e8-b4d1-eabcbe8ef9a3" />
+        <generalsInternal>
+          <generalization Id="63848c9a-319a-4228-9080-f62ae3dd954a" isSubstitutable="false">
+            <classMoniker Id="180f3b7c-825f-4fa7-b38c-2d0e23383d3f" LastKnownName="Machine" />
+            <elementDefinition Id="c0813875-ef0d-4dfd-8dda-e1e119ddeed4" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2992488a-c60d-4dca-950d-18e45a31e76c" name="Ship" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="76928b35-e1dc-4874-80de-e814fd93721b" />
+        <generalsInternal>
+          <generalization Id="3449c99f-8c70-4ca0-a113-630d53fec7e0" isSubstitutable="false">
+            <classMoniker Id="180f3b7c-825f-4fa7-b38c-2d0e23383d3f" LastKnownName="Machine" />
+            <elementDefinition Id="ba9d36df-c4ba-4e63-9f2f-72807ef65f10" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f877e9ad-d122-4914-8a79-e8ed93da6710" name="Marine" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ae798961-44cc-4246-8c5c-b2fd71b01bf8" />
+        <generalsInternal>
+          <generalization Id="f2454471-ca2b-4fd6-a074-17da3c5d0b94" isSubstitutable="false">
+            <classMoniker Id="a2fef96e-02d1-4698-9e8e-44a28524ecf1" LastKnownName="Troop" />
+            <elementDefinition Id="9ac8efa4-0640-4050-8371-86140d776d15" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8cd2c1b9-578b-40a4-926e-1d53db5e8b93" name="Infantry" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e1d6b73a-dabb-409f-aea0-ac6bb117acd3" />
+        <generalsInternal>
+          <generalization Id="0f4736c5-d2fe-45f6-9bb0-58ce9d01e6a8" isSubstitutable="false">
+            <classMoniker Id="a2fef96e-02d1-4698-9e8e-44a28524ecf1" LastKnownName="Troop" />
+            <elementDefinition Id="4980f8ec-d280-4ca4-81b2-1f4568b9b903" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5dfd7465-e737-413f-b2d3-fe824fa86f35" name="Airborne" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7c0e9b7b-d7f3-4efd-9102-02296ed56169" />
+        <generalsInternal>
+          <generalization Id="accf23f9-1e9a-4569-a4cc-03e115be1787" isSubstitutable="false">
+            <classMoniker Id="a2fef96e-02d1-4698-9e8e-44a28524ecf1" LastKnownName="Troop" />
+            <elementDefinition Id="345a8a78-7ab9-4f8a-b5d7-3ae811972996" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="cf69a8cc-b019-4ac7-933e-675e91f4600f" name="Double" isAbstract="false" isLeaf="false" cachedFullName="Double">
+        <elementDefinition Id="28fa1de8-7ced-439d-9feb-6dd32445e9a4" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="1c170d8d-c895-40e6-ad51-f0995c4e508b" name="Double" isAbstract="false" isLeaf="false" cachedFullName="Double">
+        <elementDefinition Id="28fa1de8-7ced-439d-9feb-6dd32445e9a4" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="a3c50da1-c0a7-4ffa-9281-67430c68c7c8" name="Double" isAbstract="false" isLeaf="false" cachedFullName="Double">
+        <elementDefinition Id="28fa1de8-7ced-439d-9feb-6dd32445e9a4" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="fde37a11-aca6-483e-b3f1-72d7ba3db97e" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e2a15c04-d76d-4653-8d86-384ed046bc43" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="ffd73e3f-8c94-4c8c-98de-f3a9d5f72da7" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="14814b6c-a3ac-4249-a740-4bb5826e75e9" name="Coordinates" isAbstract="false" isLeaf="false" cachedFullName="OOP_CW::Coordinates">
+        <elementDefinition Id="b4a61fc0-caee-4d08-a95a-3cbcce1faed1" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="14b9c536-e474-4cf3-bb7f-3a831333fa57" name="Coordinates" isAbstract="false" isLeaf="false" cachedFullName="OOP_CW::Coordinates">
+        <elementDefinition Id="b4a61fc0-caee-4d08-a95a-3cbcce1faed1" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="9391e0c5-afd4-47c5-9ec3-d9246abb0119" name="Machine" isAbstract="false" isLeaf="false" cachedFullName="OOP_CW::Machine">
+        <elementDefinition Id="c5b50861-e4da-4c06-84bd-b5ef16145b3f" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="efec3ac7-7b32-4323-be7d-4a3cd0dacf2a" name="OOP_CW">
+    <elementDefinition Id="21bb5fc4-a8f8-4d1e-af29-954e96cb8666" />
+    <profileInstances>
+      <packageHasProfileInstances Id="f5ecef51-5276-4863-a32e-af7faf07f4c3">
+        <profileInstance Id="ebed4b39-5b3b-4598-807b-9aaa57e8c52c" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="3d93dae6-bac4-44e8-b26d-cedc011e66e4">
+        <profileInstance Id="6c1ea9eb-b057-446f-96aa-0239b6b403eb" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>
