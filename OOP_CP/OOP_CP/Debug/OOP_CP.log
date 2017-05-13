@@ -1,0 +1,55 @@
+﻿  main.cpp
+d:\projects\oop_cp\oop_cp\main.cpp(1): warning C4627: #include "Group.h": пропущен при поиске использования предкомпилированного заголовка
+  d:\projects\oop_cp\oop_cp\main.cpp(1): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+d:\projects\oop_cp\oop_cp\main.cpp(2): warning C4627: #include "Infantry.h": пропущен при поиске использования предкомпилированного заголовка
+  d:\projects\oop_cp\oop_cp\main.cpp(2): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+d:\projects\oop_cp\oop_cp\main.cpp(3): warning C4627: #include "Marine.h": пропущен при поиске использования предкомпилированного заголовка
+  d:\projects\oop_cp\oop_cp\main.cpp(3): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+d:\projects\oop_cp\oop_cp\main.cpp(4): warning C4627: #include "Airbourne.h": пропущен при поиске использования предкомпилированного заголовка
+  d:\projects\oop_cp\oop_cp\main.cpp(4): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+d:\projects\oop_cp\oop_cp\main.cpp(5): warning C4627: #include "Plane.h": пропущен при поиске использования предкомпилированного заголовка
+  d:\projects\oop_cp\oop_cp\main.cpp(5): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+d:\projects\oop_cp\oop_cp\main.cpp(6): warning C4627: #include "Ship.h": пропущен при поиске использования предкомпилированного заголовка
+  d:\projects\oop_cp\oop_cp\main.cpp(6): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+d:\projects\oop_cp\oop_cp\main.cpp(7): warning C4627: #include "Tank.h": пропущен при поиске использования предкомпилированного заголовка
+  d:\projects\oop_cp\oop_cp\main.cpp(7): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+d:\projects\oop_cp\oop_cp\main.cpp(8): warning C4627: #include "Unit.h": пропущен при поиске использования предкомпилированного заголовка
+  d:\projects\oop_cp\oop_cp\main.cpp(8): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+d:\projects\oop_cp\oop_cp\main.cpp(10): warning C4627: #include <vector>: пропущен при поиске использования предкомпилированного заголовка
+  d:\projects\oop_cp\oop_cp\main.cpp(10): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+d:\projects\oop_cp\oop_cp\main.cpp(11): warning C4627: #include <string>: пропущен при поиске использования предкомпилированного заголовка
+  d:\projects\oop_cp\oop_cp\main.cpp(11): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+d:\projects\oop_cp\oop_cp\main.cpp(12): warning C4627: #include <cstdio>: пропущен при поиске использования предкомпилированного заголовка
+  d:\projects\oop_cp\oop_cp\main.cpp(12): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+d:\projects\oop_cp\oop_cp\main.cpp(13): warning C4627: #include <regex>: пропущен при поиске использования предкомпилированного заголовка
+  d:\projects\oop_cp\oop_cp\main.cpp(13): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+d:\projects\oop_cp\oop_cp\main.cpp(125): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.
+  Unit.cpp
+d:\projects\oop_cp\oop_cp\unit.cpp(1): warning C4627: #include "Unit.h": пропущен при поиске использования предкомпилированного заголовка
+  d:\projects\oop_cp\oop_cp\unit.cpp(1): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+d:\projects\oop_cp\oop_cp\unit.cpp(3): warning C4627: #include "time.h": пропущен при поиске использования предкомпилированного заголовка
+  d:\projects\oop_cp\oop_cp\unit.cpp(3): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+d:\projects\oop_cp\oop_cp\unit.cpp(4): warning C4627: #include <typeinfo.h>: пропущен при поиске использования предкомпилированного заголовка
+  d:\projects\oop_cp\oop_cp\unit.cpp(4): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+d:\projects\oop_cp\oop_cp\unit.cpp(5): warning C4627: #include <string>: пропущен при поиске использования предкомпилированного заголовка
+  d:\projects\oop_cp\oop_cp\unit.cpp(5): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+d:\projects\oop_cp\oop_cp\unit.cpp(6): warning C4627: #include <list>: пропущен при поиске использования предкомпилированного заголовка
+  d:\projects\oop_cp\oop_cp\unit.cpp(6): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+d:\projects\oop_cp\oop_cp\unit.cpp(7): warning C4627: #include <vector>: пропущен при поиске использования предкомпилированного заголовка
+  d:\projects\oop_cp\oop_cp\unit.cpp(7): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+d:\projects\oop_cp\oop_cp\unit.cpp(82): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.
+  Troop.cpp
+d:\projects\oop_cp\oop_cp\troop.cpp(26): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+  Tank.cpp
+d:\projects\oop_cp\oop_cp\tank.cpp(1): warning C4627: #include "Tank.h": пропущен при поиске использования предкомпилированного заголовка
+  d:\projects\oop_cp\oop_cp\tank.cpp(1): note: Добавление директивы в "stdafx.h" или перестройка предкомпилированного заголовка
+d:\projects\oop_cp\oop_cp\tank.cpp(30): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.
+  Ship.cpp
+  Plane.cpp
+  Marine.cpp
+  Machine.cpp
+  Infantry.cpp
+  Group.cpp
+d:\projects\oop_cp\oop_cp\unit.h(53): error C2061: синтаксическая ошибка: идентификатор "Group"
+  Airbourne.cpp
+  Создание кода...

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Unit">
+    <Position X="4.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEEAQAAEAASQYAAAAAAAIAAEAQCRACBEAEIAAAA=</HashCode>
+      <FileName>Unit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Machine">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAIAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Troop">
+    <Position X="9.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQIA=</HashCode>
+      <FileName>Unit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tank">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAACAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Unit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Plane">
+    <Position X="2.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAgAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Unit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ship">
+    <Position X="5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAQCAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Marine">
+    <Position X="11.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Unit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Infantry">
+    <Position X="7.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAEAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Airbourne">
+    <Position X="9.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAIAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Group">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAEAAAAAAAAAAAABAAAAAAACAAA=</HashCode>
+      <FileName>Unit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Coord">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQABgAQAAAAA=</HashCode>
+      <FileName>Unit.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Movement">
+    <Position X="13.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAABAAAAAAAAAQAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Unit.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
