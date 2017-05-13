@@ -1,9 +1,0 @@
-﻿  main.cpp
-d:\projects\oop_cp\oop_cp\main.cpp(160): warning C4101: transport: неиспользованная локальная переменная
-d:\projects\oop_cp\oop_cp\main.cpp(159): warning C4101: unit: неиспользованная локальная переменная
-d:\projects\oop_cp\oop_cp\main.cpp(190): warning C4101: command: неиспользованная локальная переменная
-d:\projects\oop_cp\oop_cp\main.cpp(191): warning C4101: stream: неиспользованная локальная переменная
-d:\projects\oop_cp\oop_cp\main.cpp(199): warning C4101: pu2: неиспользованная локальная переменная
-d:\projects\oop_cp\oop_cp\main.cpp(198): warning C4101: pu1: неиспользованная локальная переменная
-  OOP_CP.vcxproj -> C:\OOP_CP\Debug\OOP_CP.exe
-  OOP_CP.vcxproj -> C:\OOP_CP\Debug\OOP_CP.pdb (Partial PDB)
