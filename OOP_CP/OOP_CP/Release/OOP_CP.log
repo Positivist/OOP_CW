@@ -1,0 +1,21 @@
+﻿  Airborne.cpp
+  Group.cpp
+  Infantry.cpp
+  Machine.cpp
+Machine.cpp(49): warning C4018: >: несоответствие типов со знаком и без знака
+  main.cpp
+  Marine.cpp
+  Plane.cpp
+  Ship.cpp
+  Tank.cpp
+  Troop.cpp
+  Unit.cpp
+Unit.cpp(31): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  utils.cpp
+  Создание кода
+  Создание кода завершено
+  242 of 519 functions (46.6%) were compiled, the rest were copied from previous compilation.
+    70 functions were new in current compilation
+    37 functions had inline decision re-evaluated but remain unchanged
+  OOP_CP.vcxproj -> D:\Projects\CP\OOP_CP\Release\OOP_CP.exe
+  OOP_CP.vcxproj -> D:\Projects\CP\OOP_CP\Release\OOP_CP.pdb (Full PDB)
